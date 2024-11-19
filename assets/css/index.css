@@ -59,6 +59,8 @@ nav .sous li:nth-child(3) a:hover{background-color:#9b443f;}
 nav .sous li:nth-child(4) a:hover{background-color:#dda148;}
 nav .sous li:nth-child(5) a:hover{background-color:#76877d;}
 nav .sous li:nth-child(6) a:hover{background-color:#aca9e2;}
+nav .sous li:nth-child(7) a:hover{background-color:#4c8577;}
+nav .sous li:nth-child(8) a:hover{background-color:#c67b91;}
 
 /*************************************************************
 *********** SECTION
@@ -102,6 +104,8 @@ section:nth-child(4) h1{background-color:#9b443f;}
 section:nth-child(5) h1{background-color:#dda148;}
 section:nth-child(6) h1{background-color:#76877d;}
 section:nth-child(7) h1{background-color:#aca9e2;}
+section:nth-child(8) h1{background-color:#4c8577;}
+section:nth-child(9) h1{background-color:#c67b91;}
 
 
 

@@ -130,25 +130,41 @@ section:nth-child(9) h1{background-color:#c67b91;}
 }
 
 /*************************************************************
-*********** ACCUEIL
+*********** ACCUEIL | CV | TABLEAU | ATTESTATION
 **************************************************************/
 
+.accueil-image{
+    height:90vh;
+    width:80vw;
+}
 
-/*************************************************************
-*********** CV
-**************************************************************/
-
-#cv{
+#cv, #tableau, #attestation{
     overflow:hidden;
 }
 
-.contenu-cv{
+.contenu-accueil, .contenu-cv, .contenu-tableau, .contenu-attestation{
     display:flex;
-    align-items:center;
     justify-content: center;
+    align-items:center;
 }
 
-embed{
-    width:850px;
+.cv-embed, .tableau-embed{
     height:92vh;
+    width:45vw;
+}
+
+.attestation-embed{
+    height:85vh;
+    width:30vw;
+    padding:20px;
+}
+
+.attestation-titre{
+    text-align: center;
+    font-family:'Darker Grotesque', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    padding:5px 0px 7.5px 0px;
+    margin:7.5px 10px 0px 10px;
+    background-color: #c67b91;
 }
